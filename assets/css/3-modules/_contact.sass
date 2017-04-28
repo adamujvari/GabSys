@@ -1,0 +1,65 @@
+.contact-section
+  @extend .section
+  text-align: center
+  background: $bg-contact
+  font:
+    size: 22px
+    weight: 400
+    line-height: 170%
+
+
+  h2
+    color: $navy
+  
+  .blurb
+    margin: 0 auto 50px
+    max-width: 40em
+  
+  .blurb2
+    margin-top: 60px
+    font:
+      size: 18px
+
+
+  .contact-wrapper
+    margin: 0 auto
+    max-width: 26em
+    padding: 1px 1px
+    +clearfix
+    
+    .avatar
+      +size(250px)
+      border-radius: 50%
+      display: inline
+      float: left
+      margin-right: 30px
+      border: solid 3px lightslategray
+
+    .details
+      text-align: left
+      display: inline
+
+      p
+        margin-bottom: 5px
+        
+      .space
+        margin-top: 35px
+
+@media (max-width: 600px)
+  .contact-section
+    .contact-wrapper
+
+      .avatar
+        +size(200px)
+        display: block
+        margin: 0 auto 30px
+        float: none
+
+      .details
+        display: block
+        text-align: center
+        margin: 0 auto
+
+        p
+          .space
+            margin-top: 0px

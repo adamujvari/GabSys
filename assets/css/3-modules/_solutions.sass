@@ -1,0 +1,32 @@
+.solutions-section
+  @extend .section
+  text-align: center
+  
+  h2
+    margin-bottom: 80px
+    color: $navy
+
+
+  .solution
+    max-width: 28em
+    margin: 0 auto 50px
+    text-align: left
+    color: $navy
+    padding-left: 70px
+
+    span
+      +size(18px)
+      border-radius: 50%
+      border: solid 2px rgba(0,0,0,0.2)
+      position: absolute
+    
+    p
+      display: inline
+      padding-left: 40px
+
+@media (max-width: 600px)
+  .solutions-section
+    .solution
+      padding-left: 0px
+      text-align: center
+      

@@ -1,0 +1,20 @@
+<footer>
+  
+  <div class="lockup">
+    <div class="logo">{% include icons/logo.html %}</div>
+
+    <div class="wrapper">
+      <nav>
+        {% for item in site.nav %}
+        <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+        <a href="">Sitemap</a>
+      </nav>
+
+      <p class="copyright">Copyright 	&#xA9; {{ site.title }} All rights reserved.</p>
+
+      <!-- lang selector -->
+    </div>
+  </div>
+
+</footer>

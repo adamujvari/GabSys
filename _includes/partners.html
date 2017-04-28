@@ -1,0 +1,40 @@
+<section class="partners-section">
+
+  <h2>Our partners</h2>
+
+  <div class="narrow-nav">
+    {% for partner in site.partners %}
+      <span class="partner-button {% if forloop.first %}partner-active{% endif %}"></span>
+    {% endfor %}
+  </div>
+
+  <div class="selector">
+    {% for partner in site.partners %}
+        <img class="partner-logo {% if forloop.first %}partner-active{% endif %}" src="/assets/img/{{ partner.logo }}" align="{{ partner.logo }}">
+    {% endfor %}
+  
+  </div>
+
+  <div class="partner-controls">
+    <div class="partner-control-prev">{% include/icons/prev.html %}</div>
+    <div class="partner-control-next">{% include/icons/next.html %}</div>
+  </div>
+
+  <div class="partner-belt">
+
+    {% for partner in site.partners %}
+    <div class="partner-unit {% if forloop.first %}partner-active{% endif %}">
+      <div class="partner-title"><h3>{{ partner.title }}</h3></div>
+      <div class="partner-content">{{ partner.content }}</div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+<!--
+  <div class="top">
+    <h3 class="learn-more"><a href="/solutions.html" alt="solutions">Learn more</a><span class="arrow"> &#8594</span></h3>
+  </div>
+  -->
+
+</section>

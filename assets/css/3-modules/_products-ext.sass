@@ -1,0 +1,40 @@
+.products-ext-section
+  @extend .section
+  background: $bg-products
+  text-align: center
+
+  .products-wrapper
+    max-width: 80em
+    margin: 0 auto
+
+    em
+      font-weight: 400
+
+    h2
+      color: $navy
+
+    .product
+      margin: 7px 4px
+      //background: rgba(120, 120, 120, 0.1)
+      padding: 15px
+      border: solid 2px rgba(0,0,0,0.1)
+      border-radius: 25px
+      display: inline-block
+
+      .prod-icon
+        +size(100px)
+        background: rgba(0,0,0,0.1)
+        border-radius: 50%
+        display: inline-block
+        margin: 10px 20px auto 0
+        float: left
+
+        .logo
+          height: 50px
+          padding: 25px 0 0 0
+
+      .prod-desc
+        text-align: left
+        display: inline-block
+        max-width: 15em
+

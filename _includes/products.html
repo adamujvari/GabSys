@@ -1,0 +1,21 @@
+<section class="products-section">
+
+  <div class="products-wrapper">
+
+    <h2>Our most popular products</h2>
+    
+    {% for product in site.products %}
+    <div class="product">
+      <div class="prod-icon"><img src="/assets/img/{{ product.icon }}" class="logo" align="{{ product.icon }}"></div>
+      <div class="prod-desc">
+        <h3>{{ product.title }}</h3>
+        <p>{{ product.desc }}</p>
+      </div>
+    </div>
+    {% endfor %}
+
+  <h3 class="learn-more"><a href="/solutions.html" alt="solutions">Learn more</a><span class="arrow"> &#8594</span></h3>
+
+  </div>
+
+</section>

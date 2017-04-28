@@ -1,0 +1,97 @@
+# Site settings ---------------------------------------------------------------
+title: 'GabSys ltd.'
+email: 'info@gabsys.hu'
+description: CTI Telephony Systems   //   Recording Solutions   //   Custom Software
+baseurl: "" #not needed
+url: "http://gabsys.hu/"
+
+seo:
+  description: 'Custom software for call-handling, contact center solutions and voice recording systems'
+  rel-author: 'https://www.linkedin.com/in/gabor-ujvari-58a04584/'
+  rel-publisher: 'https://www.linkedin.com/in/gabor-ujvari-58a04584/'
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+sass:
+  sass_dir: assets/css
+#port: 8080
+
+### English content -----------------------------------------------------------
+
+#_Nav items
+nav:
+- {name: 'Home', url: 'http://gabsys.hu'}
+- {name: 'Solutions', url: '/solutions.html'}
+- {name: 'Timeline', url: ''}
+- {name: 'Contact', url: '/contact.html'}
+
+#_About Section
+blurb: '<p>For the past twenty years we have been leading developers in CTI telephony 
+systems, call centers, application development and system integration.</p>
+<p>We work directly or as subcontractors through our partners with our customers. 
+This enables instant and efficient support as well as fast integration of new 
+features to meet the ever changing standards of the IT segment.</p>
+<p>Besides existing products we also offer a broad selection of solutions to our customers.</p>
+<p>With the implementation of a new system we provide in-depth planning, realization as well as support and advice consultancy.</p>'
+
+#_Products Section
+products:
+- {icon: 'irs.png',
+  title: 'IRS',
+  desc: '<em>Intelligent Recording Solution</em>, Robust voice recording system.'}
+- {icon: 'lcm.png',
+  title: 'Lost Call Management',
+  desc: 'Application for handling lost calls in the Contact Centre.'}
+- {icon: 'snmp.png',
+  title: 'SNMP Server',
+  desc: 'Remote monitoring module for round-the-clock support.'}
+- {icon: 'gen.png',
+  title: 'Genesys CTI Link',
+  desc: 'Data link module to the Genesys framework.'}
+- {icon: 'oxo.png',
+  title: 'Alcatel OXO Link',
+  desc: 'Cross-platform and language independent middleware.'}
+
+#_Solutions
+solutions:
+- item: 'Concept development'
+- item: 'Feasibility studies'
+- item: 'Implementation of prototypes and pilot solutions'
+- item: 'System design, integration'
+- item: 'Application Development'
+- item: 'Auditing of existing systems'
+- item: 'Customer support, up to 7/24 availability'
+- item: 'Remote supervision and support'
+- item: 'Custom Solutions'
+
+#_Partners Section
+partners:
+- {logo: 'partner1.png',
+  title: 'DimensionData Hungary ltd.',
+  content: '<p>Our partnership started with the former legal predecessor NextiraOne Hungary ltd back in 2005. We provide solutions to customers in the contact center area, both in banking, public utility and government sectors. Furthermore we provide operation support, application development and system integration.</p>'}
+- {logo: 'partner2.png',
+  title: 'T-Systems Hungary co. ltd.',
+  content: '<p>Our partnership with T-Systems began in 2010 with the main objective to provide solutions to the Bank of Budapest. Our main tasks include operation support, development of new features and integration of the contact center with the backend systems of the bank.</p>'}
+- {logo: 'partner3.png',
+  title: 'Enterprise Communications Hungary ltd.',
+  content: '<p>Cooperation since 2011 with our attention focused on Digi ltd. who is  a major TV, cable, internet and mobile phone service provider. Our duties include operation support for the contact center, call-handling and comprehensively recording all administrative conversations.</p>'}
+- {logo: 'partner1.png',
+  title: 'DimensionData Austria llc.',
+  content: '<p>Partners since 2004. We provide solutions and operational support for contact centers for a wide variety of clients. These clients range from insurance-, commercial-, infrastructure operating companies to even beer breweries. We also offer call-handling and automated report generation on intensive database usage.</p>'}
+
+#_Contact Section
+contact:
+  blurb: 'If you are interested, have any questions or already have an idea that you wish to discuss with us, feel free to get in touch.'
+  blurb2: 'Or send your inquiries to <a href="mailto:info@gabsys.hu">info@gabsys.hu</a>'
+  name: 'Gábor Ujvári'
+  avatar: 'gabor.jpg'
+  job: 'General Manager'
+  mobile: '+36 70 205 4333'
+  email: 'gabor.ujvari@gabsys.hu'
+  skype: 'gaborujv'

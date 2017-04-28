@@ -1,0 +1,122 @@
+.partners-section
+  position: relative
+  @extend .section
+  text-align: center
+
+  .partner-controls
+    +position(absolute, 0px 0px 0px 0px)
+    +size(100%)
+    z-index: 2
+
+    > div
+      +size(50px)
+      margin-top: -25px
+
+    .partner-control-next
+      +position(absolute, 50% 10px null null)
+      cursor: pointer
+
+    .partner-control-prev
+      +position(absolute, 50% null null 10px)
+      cursor: pointer
+
+  h2
+    color: $navy
+  
+  h3
+    @extend .learn-more
+    .selector
+      .partner
+        display: inline-block
+        margin: 0px 10px
+
+  .partner-belt
+    width: 100%
+    position: relative
+
+    .partner-unit
+      text-align: center
+      max-width: 50em
+      margin: 50px auto 0
+      position: relative
+      display: none
+
+      &.partner-active
+        +display(block)
+
+      .partner-title
+
+      .partner-content
+        font:
+          size: 20px
+          weight: 400
+        line-height: 170%
+
+  .narrow-nav
+    display: none
+
+    span
+      cursor: pointer
+      display: inline-block
+      +size(18px)
+      border-radius: 50%
+      border: solid 2px rgba(0,0,0,0.2)
+      margin: 0 10px
+
+      &.partner-active
+        border-color: $navy
+
+  .top
+    z-index: 4
+
+  .selector
+    position: relative
+    max-width: 65em
+    margin: 30px auto 30px
+    +display(flex)
+    +align-items(center)
+    +justify-content(space-around)
+    z-index: 3
+
+    .partner-logo
+      margin: auto 20px 30px
+      max-width: 200px
+      box-shadow: 0 10px 0 $white
+      background:
+        size: contain
+        position: center bottom
+        repeat: no-repeat
+      cursor: pointer
+      opacity: 0.7
+      +transition(0.4s)
+
+      &.partner-active
+        box-shadow: 0 10px 0 $white, 0 14px 0 $navy
+        +transition(0.3s)
+        opacity: 1
+
+@media (max-width: 970px)
+  .partner-controls
+    display: none
+
+  .partner-belt
+    .partner-unit
+      display: block
+      position: relative
+      margin-left: 0px
+      left: auto
+      padding: 0 10px
+
+
+
+@media (max-width: 915px)
+  .partners-section
+    .narrow-nav
+      display: block
+
+    .selector
+      display: none
+      margin: 0 0 0 0
+
+      .partner-logo
+        display: none
