@@ -1,0 +1,69 @@
+.timeline-section
+  @extend .section
+  text-align: center
+  background: $bg-timeline
+
+  .wrapper
+    margin: 40px 0
+  
+  h2
+    color: $navy-complement
+
+  .timeline-post
+    max-width: 60em
+    margin: 0 auto
+    overflow: hidden
+
+    &:hover
+      .line
+        span
+          background: silver
+          +transition(0.3s)
+
+    .post-meta
+      width: 20em
+      height: 100px
+      float: left
+      text-align: right
+      display: inline
+      padding: 20px 0
+
+      .date
+        display: block
+        font-size: 20px
+        color: silver
+        margin-bottom: 15px
+
+      .logo
+        float: right
+        height: 30px
+        display: block
+
+    .line
+      float: left
+      min-height: 140px
+      width: 6px
+      margin: 0 25px
+      background: $time-line
+
+      span
+        position: absolute
+        +size(20px)
+        border-radius: 50%
+        border: solid 6px $bg-timeline
+        background: $time-line
+        margin: 18px 0 0 -16px
+        +transition(0.3s)
+
+
+    .post-link
+      height: 100px
+      max-width: 40em
+      float: left
+      text-align: left
+      display: inline
+      padding: 20px 0
+
+      h3
+        margin-top: 0
+

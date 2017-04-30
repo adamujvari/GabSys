@@ -22,6 +22,9 @@ sass:
   sass_dir: assets/css
 #port: 8080
 
+# Post categories
+categories: [timeline, product, solution]
+
 ### English content -----------------------------------------------------------
 
 #_Nav items

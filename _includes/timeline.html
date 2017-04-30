@@ -1,0 +1,29 @@
+<section class="timeline-section">
+
+  <h2>Timeline</h2>
+
+  <div class="wrapper">
+    
+    {% for post in site.posts %}
+    {% if post.categories contains 'timeline' %}
+    <div class="timeline-post">
+      <div class="post-meta">
+        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <img class="logo" src="/assets/img/posts/{{ post.asset }}">
+      </div>
+      <div class="line">
+        <span class="dot"></span>
+      </div>
+      <div class="post-link">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+        <p class="subtitle">{{ post.subtitle }}</p>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    
+  </div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+</section>

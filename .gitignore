@@ -1,5 +1,8 @@
 _site/
 _posts/
+_products/
+
+assets/img/posts/
 
 .sass-cache/
 .git/
