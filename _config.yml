@@ -41,7 +41,7 @@ systems, call centers, application development and system integration.</p>
 This enables instant and efficient support as well as fast integration of new 
 features to meet the ever changing standards of the IT segment.</p>
 <p>Besides existing products we also offer a broad selection of solutions to our customers.</p>
-<p>With the implementation of a new system we provide in-depth planning, realization as well as support and advice consultancy.</p>'
+<p>With the implementation of a new system we provide in-depth planning, realization as well as support and consultancy.</p>'
 
 #_Products Section
 products:
@@ -59,7 +59,7 @@ products:
   desc: 'Data link module to the Genesys framework.'}
 - {icon: 'oxo.png',
   title: 'Alcatel OXO Link',
-  desc: 'Cross-platform and language independent middleware.'}
+  desc: 'Cross-platform and language independent CTI middleware.'}
 
 #_Solutions
 solutions:
@@ -80,10 +80,10 @@ partners:
   content: '<p>Our partnership started with the former legal predecessor NextiraOne Hungary ltd back in 2005. We provide solutions to customers in the contact center area, both in banking, public utility and government sectors. Furthermore we provide operation support, application development and system integration.</p>'}
 - {logo: 'partner2.png',
   title: 'T-Systems Hungary co. ltd.',
-  content: '<p>Our partnership with T-Systems began in 2010 with the main objective to provide solutions to the Bank of Budapest. Our main tasks include operation support, development of new features and integration of the contact center with the backend systems of the bank.</p>'}
+  content: '<p>Our partnership with T-Systems began in 2010 with the main objective to provide solutions to Budapest Bank. Our main tasks include operation support, development of new features and integration of the contact center with the backend systems of the bank.</p>'}
 - {logo: 'partner3.png',
   title: 'Enterprise Communications Hungary ltd.',
-  content: '<p>Cooperation since 2011 with our attention focused on Digi ltd. who is  a major TV, cable, internet and mobile phone service provider. Our duties include operation support for the contact center, call-handling and comprehensively recording all administrative conversations.</p>'}
+  content: '<p>Cooperation since 2011 with our attention focused on Digi ltd. who is  a major TV, cable, internet and mobile phone service provider. Our duties include operation support for the contact center, call-handling and comprehensively recording all the agents conversations with the customers.</p>'}
 - {logo: 'partner1.png',
   title: 'DimensionData Austria llc.',
   content: '<p>Partners since 2004. We provide solutions and operational support for contact centers for a wide variety of clients. These clients range from insurance-, commercial-, infrastructure operating companies to even beer breweries. We also offer call-handling and automated report generation on intensive database usage.</p>'}
