@@ -2,7 +2,7 @@
 A responsive website built with jekyll. Optimised load and render behaviour, only using html, css and js.
 
 ## Notes:
-* Bourbon files are only included if used.
+* Bourbon mixins are only included if used.
 * Generated site is located in directory '_site'.
 * '_files' are not added to the generated site.
 * posts are not under version control.
