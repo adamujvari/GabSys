@@ -58,7 +58,7 @@ products:
   title: 'Genesys CTI Link',
   desc: 'Data link module to the Genesys framework.'}
 - {icon: 'oxo.png',
-  title: 'Alcatel OXO Link',
+  title: 'Alcatel OXOLink',
   desc: 'Cross-platform and language independent CTI middleware.'}
 
 #_Solutions
