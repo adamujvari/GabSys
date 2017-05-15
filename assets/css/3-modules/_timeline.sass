@@ -46,6 +46,7 @@
       margin: 0 40px
       background: $time-line
 
+
       span
         position: absolute
         +size(20px)
@@ -55,6 +56,11 @@
         margin: 18px 0 0 -16px
         +transition(0.3s)
 
+    .bottom
+      +linear-gradient(to bottom, $time-line, $bg-timeline)
+
+    .first
+      +linear-gradient(to top, $time-line, $bg-timeline)
 
     .post-link
       height: 100px
